@@ -3,68 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Firman Suawa</title>   
+    <title>CV Firman Suawa</title>  
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <table cellspacing="30">
-                <tbody>
-                    <tr>
-                        <td>
-                            <img src="image/circle-cropped.png" width="250" alt="">
-                        </td>
-                        <td>
-                            <h1>CURRICULUM VITAE</h1>
-                            <h1>Firman Marthin Yohanes Suawa</h1>
-                            <p>
-                                Email : firmansuawa@gmail.com
-                            </p>
-                            <p>
-                                Phone : +62895620654365
-                            </p>
-                        </td>
-                        
-                    </tr>
+        <nav class="navigation" >
+            <ul>
+            <li>    
+            <a href="#biodata">Biodata</a>
+            </li>
+            <li>
+            <a href="#education">Pendidikan</a>
+            </li>
+            <li>
+            <a href="#bahasa">Skill Bahasa</a>
+            </li>
+            <li>
+            <a href="#software">Software Skills</a>
+            </li>
+            <li>
+            <a href="#program">Programming Skills</a>
+            </li>
+    
+        </nav>
         
-                </tbody>
-            
-        </table>
     </header>
 
-    <nav>
-        <a href="#biodata">Biodata</a>
+   <div id="home"style="padding-bottom: 50px; padding-top:80px;"class="home" align="center">
+    <table >
+        <tbody>
+            <tr>
+                <td>
+                    <div style="margin-left: 50px;">
+                    <img class="foto-profil" src="image/circle-cropped.png" width="250" alt="">
+                    </div>
+                </td>
+                <td>
+                    <h1 style="margin-left: 100px; font-size:26px; ">CURRICULUM VITAE</h1>
+                    <h1 style="margin-left: 100px; padding-top:20px;font-size:48px; " class="name">Firman  Suawa</h1>
+                    <p style="margin-left: 100px; padding-top:20px;font-size:18px; ">
+                        Email : firmansuawa@gmail.com
+                    </p>
+                    <p style="margin-left: 100px; padding-top:20px;font-size:18px; ">
+                        Phone : +62895620654365
+                    </p>
+                    <p style="margin-left:100px; padding-top:20px; font-size:18px;">Find Me on :</p>
+                    <div class="sosmed">
+                    <a href="https://www.facebook.com/firman.suawa"><img  style="margin-left: 105px; padding-top:5px;"src="image/fb.png" width="20" alt=""></a>
+                    <a href=""><img  style=" padding-top:5px;padding-left:10px;"src="image/insta.png" width="20" alt=""></a>
+                    <a href=""><img style=" padding-top:5px;padding-left:10px;" src="image/github.png" alt="" width="20"></a>
+                    </div>
+                </td>
+                
+            </tr>
 
-        <a href="#education">| Pendidikan</a>
+        </tbody>
+    
+</table>
+</div>
 
-        <a href="#bahasa">| Skill Bahasa</a>
-
-        <a href="#software">| Software Skills</a>
-
-        <a href="#program">| Programming Skills</a>
-
-
-    </nav>
-    <section id="education">
+<div align="center">
+    <section id="education" >
         <hr>
-        <h1>Pendidikan</h1>
-        <ol>
-            <li>SD St.Aloysius Tokambene Manado</li>
-            <br>
-            <li>SMP Pax Christi Manado</li>
-            <br>
-            <li>SMA Negeri 1 Manado</li>
-            <br>
-            <li>Universitas Klabat Airmadidi</li>
-        </ol>
-
-
+        <h1 style="padding-top: 20px;">Pendidikan</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="list-pendidikan">
+                            <ol>
+                            <li>SD St.Aloysius Tokambene Manado</li>
+                            <br>
+                            <li>SMP Pax Christi Manado</li>
+                            <br>
+                            <li>SMA Negeri 1 Manado</li>
+                            <br>
+                            <li>Universitas Klabat Airmadidi</li>
+                            </ol>
+                            </div>
+                        
+           
+                  </td>
+                    <td>
+                    
+                    <img style="padding-bottom:25px;" class="img-pendidikan"  src="image/pendidikan.png" alt="" width="200" height="200" >
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </section>
+</div>
     <section id="biodata">
         <hr>
-        <h1>Data Personal</h1>
+        <div align="center">
+        <h1 style="padding-top: 15px;">Data Personal</h1>
         <table cellspacing="30">
             <tbody>
                 <tr>
+                    <td>
+                        <img src="image/personal.png" alt="" width="150">
+                    </td>
                     <td>
                         Nama 
                         <br>
@@ -95,21 +135,24 @@
                         : Kristen Protestan
                         <br>
                         <br>
-                        : Jl. Temboan, Winangun 2 Lingkungan 1, Manado
+                        : Jl. Temboan, Winangun 2 
+                        <br>
+                        Lingkungan 1, Manado
                         
                     </td>
                 </tr>
             </tbody>
         </table>
-
+    </div>
     </section>
+    <div align="center">
     <section id="bahasa">
        <hr>
-        <h1>Skill Bahasa</h1>
+        <h1 style="font-size: 26px; padding-top:15px;">Skill Bahasa</h1>
         <table cellspacing="30">
             <tbody>
                 <tr>
-                    <td>
+                    <td style="font-size: 10px; color:white">
                         Bahasa Indonesia
                         <br>
                         <br>
@@ -133,18 +176,27 @@
                         <br>
                         :    ⭐ ⭐
                     </td>
+                    <td>
+                        <img src="image/bahasa.png" alt="" width="200">
+                    </td>
 
                 </tr>
             </tbody>
         </table>
     </section>
+    </div>
+    
     <section id="software">
         <hr>
-        <h1>Software Skills</h1>
+        <div align="center">
+        <h1 style="padding-top: 10px;">Software Skills</h1>
         <table cellspacing="30">
             <tbody>
                 <tr>
                     <td>
+                        <img src="image/software.png" alt="" width="200">
+                    </td>
+                    <td style="font-size: 13px;">
                         Photoshop
                         <br>
                         <br>
@@ -152,9 +204,15 @@
                         <br>
                         <br>
                         Microsoft Excel
+                        <br>
+                        <br>
+                        Adobe Premiere Pro
                         
                     </td>
-                    <td>
+                    <td style="font-size: 12px;">
+                        : ⭐ ⭐ ⭐ ⭐ ⭐
+                        <br>
+                        <br>
                         : ⭐ ⭐ ⭐ ⭐ ⭐
                         <br>
                         <br>
@@ -167,14 +225,17 @@
                 </tr>
             </tbody>
         </table>
+    </div>
     </section>
     <section id="program">
         <hr>
-        <h1>Programming Skills</h1>
+        <div align="center">
+        <h1 style="padding-top: 10px;">Programming Skills</h1>
         <table cellspacing="30">
             <tbody>
                 <tr>
-                    <td>
+                    
+                    <td style="font-size: 13px;">
                         SQL          
                         <br>
                         <br>
@@ -187,36 +248,42 @@
                         Java         
                         <br>
                         <br>
-                        Web Developer
+                        Web Development
 
                     </td>
+                    <td style="font-size: 13px;">
+                        : ⭐ ⭐ ⭐ ⭐ ⭐
+                        <br>
+                        <br>
+                        : ⭐ ⭐ ⭐ ⭐ ⭐
+                        <br>
+                        <br>
+                        : ⭐ ⭐ ⭐ ⭐ 
+                        <br>
+                        <br>
+                        : ⭐ ⭐ ⭐ ⭐ 
+                        <br>
+                        <br>
+                        : ⭐ ⭐ ⭐ ⭐ ⭐
+                    </td>
                     <td>
-                        : ⭐ ⭐ ⭐ ⭐ ⭐
-                        <br>
-                        <br>
-                        : ⭐ ⭐ ⭐ ⭐ ⭐
-                        <br>
-                        <br>
-                        : ⭐ ⭐ ⭐ ⭐ 
-                        <br>
-                        <br>
-                        : ⭐ ⭐ ⭐ ⭐ 
-                        <br>
-                        <br>
-                        : ⭐ ⭐ ⭐ ⭐ ⭐
+                        <img src="image/program.png" alt="" width="200">
                     </td>
                 </tr>
             </tbody>
         </table>
+    </div>
 
     </section>
+    <div align="center">
     <section id="contactme">
         <hr>
-        <h1>Contact Me</h1>
+        <h1 style="padding-top:10px;">Contact Me</h1>
         <table>
             <tbody>
                 <tr>
-                    <td>
+                    <div style="padding-top: 15px;">
+                    <td style="font-size: 13px;">
                         Your Name
                         <br>
                         <br>
@@ -225,23 +292,29 @@
                         <br>
                         Your Massage
                     </td>
-                    <td>
+                    <td style="font-size: 12px;">
                         : <input type="text" name="name" id="name">
                         <br>
                         <br>
                         : <input type="email" name="email" id="email">
                         <br>
                         <br>
-                        :
+                        : 
                     </td>
+                    </div>
                 </tr>
             </tbody>
         </table>
-        <textarea name="message" id="message" cols="30" rows="10">type your message here...</textarea>
+        <div style="padding-top: 2px;">
+        <textarea name="message" id="message" cols="30" rows="10"> type your message here...</textarea>
         <br>
         <br>
+        
         <input type="submit" value="Submit">
+        </div>    
+    
     </section>
+</div>
 
 
 
