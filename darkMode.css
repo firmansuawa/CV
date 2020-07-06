@@ -2,13 +2,13 @@
     padding: 0;
     margin: 0;
     font-family: fantasy;
-    color: #bdc3c7;
+    color: white;
     
 }
 
 body{
-    background-color: #1d1b38;
-    background-image: url("image/bg1.jpg");
+    background-color: #18181a;
+    /* background-image: url("image/bg1.jpg"); */
     background-size:contain;   
     
 }
@@ -24,7 +24,7 @@ nav{
 }
 nav ul{
     
-    background: #336d88;
+    background: #313131;
     list-style: none;
     position: relative;
     display: inline-table;
@@ -35,17 +35,18 @@ nav ul li{
     float: left;
 }
 nav ul li:hover{
-    background: #1d1b38;
+    background: #0c0c0c;
+    
     
 }
 nav ul li:hover a{
-    color: snow;
+    color: #313131;
 }
 nav ul li a{
     
     display: block;
     padding: 20px;
-    color: #bdc3c7;
+    color: #ffffff;
     text-decoration: none;
 }
 .home {
@@ -89,7 +90,7 @@ p {
   }
   
   li{
-      color: rgb(241, 239, 239);
+      color: rgb(252, 248, 248);
   }
 
 
@@ -102,22 +103,23 @@ td{
     color: white;
 }
 #education{
-    background-color: #1d1b38;
+    background-color: #414141;
 }
 #biodata{
     
-    background-image: url(image/bg2.jpg);
-    background-size: cover;
+    background-color: #18181a;
+    
+
 }
 #bahasa{
-    background-color: #1d1b38;
+    background-color: #414141;
 }
 #software{
-    background-image: url("image/bg1.jpg");
+    background-color: #18181a;
     background-size:cover; 
 }
 #program{
-    background-color: #1d1b38;
+    background-color: #414141;
 }
 textarea{
     color: black;

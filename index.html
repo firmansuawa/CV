@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Firman Suawa</title>  
-    <link rel="stylesheet" href="styles.css"> 
+    <link id="pageColor" rel="stylesheet" type="text/css" href="styles.css">
+     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 <body>
+    
     <header>
         <nav class="navigation" >
             <ul>
@@ -26,7 +29,11 @@
             <li>
             <a href="#program">Programming Skills</a>
             </li>
-    
+            <div style="float: right;padding-right:50px;padding-top:15px;">
+            <li><div style="padding-right: 15px;"><button style="color: black;" onclick="gantiHalaman('darkMode.css')">Dark Mode</button></div></li>
+            
+            <li><button style="color: black;" onclick="gantiHalaman('styles.css')">Default Mode</button></li>
+            </div>
         </nav>
         
     </header>
@@ -39,6 +46,8 @@
                     <div style="margin-left: 50px;">
                     <img class="foto-profil" src="image/circle-cropped.png" width="250" alt="">
                     </div>
+                    
+                    
                 </td>
                 <td>
                     <h1 style="margin-left: 100px; font-size:26px; ">CURRICULUM VITAE</h1>
@@ -81,6 +90,8 @@
                             <li>SMA Negeri 1 Manado</li>
                             <br>
                             <li>Universitas Klabat Airmadidi</li>
+                            
+                            
                             </ol>
                             </div>
                         
@@ -322,4 +333,5 @@
 
    
 </body>
+<script src="script.js"></script>
 </html>
